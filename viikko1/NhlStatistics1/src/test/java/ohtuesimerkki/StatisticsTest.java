@@ -53,7 +53,7 @@ public class StatisticsTest {
     @Test
     public void maalihakuToimii(){
         List<Player> pelaajat = stats.topScorers(2);
-        assertEquals(3, pelaajat.size());
+        assertEquals(2, pelaajat.size());
     }
     
 }
